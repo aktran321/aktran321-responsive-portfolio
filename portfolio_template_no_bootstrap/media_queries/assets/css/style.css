@@ -384,17 +384,24 @@ input[type=submit] {
   border: 0 none;
 
 }
-
+@media screen and (max-width:980px){
+  body{
+   
+  }
+}
 
 @media screen and (max-width:768px){
-  .container {
+  .container{
     /* Box-model */
     width: 100%;
     max-width: 768px;
   
     /* Positioning */
-    margin: 0 auto;
+    margin-left: 0px;
     clear: both;
+  }
+  .main-section{
+    margin-left:50px;
   }
 
   .auth-image {
@@ -439,6 +446,25 @@ input[type=submit] {
     
       /* Positioning */
       margin-right: 25px;
+    }
+
+    .container{
+      /* Box-model */
+      width: 100%;
+      max-width: 640px;
+    
+      /* Positioning */
+      margin-left: 0px;
+      clear: both;
+    }
+    .main-section{
+      max-width:580px;
+      margin-top: 50px;
+      margin-left: 20px;
+
+    }
+    .work{
+      width:90%;
     }
 
 }
